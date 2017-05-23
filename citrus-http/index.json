@@ -1,0 +1,35 @@
+{
+  "title": "Citrus Http REST",
+  "description": "Send/receive messages in Citrus over Http",
+  "difficulty": "beginner",
+  "time": "5-10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Start demo application",
+        "text": "step1.md"
+      },
+      {
+        "title": "Run integration tests",
+        "text": "step2.md",
+        "code": "step2-init.sh",
+        "answer": "step2-answer.md"
+      },
+      {
+        "title": "Completed!",
+        "text": "summary.md"
+      }
+    ],
+    "intro": {
+      "courseData": "init.sh"
+    }
+  },
+  "environment": {
+    "hideintro": "false",
+    "uilayout": "terminal-editor",
+    "uimessage1": "\u001b[32mInteractive bash terminal\r\nStart the todo-app web application\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "java8"
+  }
+}

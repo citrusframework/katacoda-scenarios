@@ -1,0 +1,33 @@
+{
+  "title": "Citrus Maven Quickstart",
+  "description": "Get started with creating a Citrus project with Maven",
+  "difficulty": "beginner",
+  "time": "3-5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create new Citrus project",
+        "text": "step1.md",
+        "verify": "step1-verify.sh",
+        "answer": "step1-answer.md"
+      },
+      {
+        "title": "Build the project",
+        "text": "step2.md",
+        "code": "step2-init.sh"
+      },
+      {
+        "title": "Completed!",
+        "text": "summary.md"
+      }
+    ]
+  },
+  "environment": {
+    "hideintro": "true",
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mInteractive bash terminal\r\nCreate new project using Maven archetype\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "java8"
+  }
+}
